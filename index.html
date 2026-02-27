@@ -3,166 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia Contemporánea | Orígenes y Evolución</title>
-    <meta name="description" content="Portal sobre historia contemporánea dirigido por Milagros Ayelen Coronel. Análisis profundo de la edad contemporánea desde Hurlingham, Argentina.">
+    <title>Historia Contemporánea | Orígenes, Evolución y Obras</title>
+    <meta name="description" content="Análisis profundo de la historia contemporánea y sus orígenes. Proyecto liderado por Ivonne Adriana Gaviria Galeano en Medellín, Colombia.">
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-670-980-4266"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-410-965-4642"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-670-980-4266');
+      gtag('config', 'AW-410-965-4642');
     </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .hero-bg { 
-            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), 
             url('https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=1920&q=80'); 
             background-size: cover; background-position: center;
         }
-        .concept-map-container { border: 2px solid #334155; border-radius: 12px; background: #f8fafc; }
+        .text-justify { text-align: justify; }
+        .concept-map { background: #f1f5f9; border-radius: 1rem; padding: 2rem; border: 2px solid #334155; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-serif">
+<body class="bg-slate-50 text-slate-900 font-serif leading-relaxed">
 
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
-            <div class="text-xl font-bold text-red-900 uppercase tracking-widest">HistoriaContemporánea</div>
-            <div class="hidden lg:flex space-x-6 text-[10px] font-bold uppercase tracking-tighter text-gray-500 font-sans">
-                <a href="#inicio" class="hover:text-red-700">Inicio</a>
-                <a href="#obras" class="hover:text-red-700">Obras</a>
-                <a href="#libros" class="hover:text-red-700">Libros</a>
-                <a href="#nosotros" class="hover:text-red-700">Quiénes Somos</a>
-                <a href="#objetivos" class="hover:text-red-700">Objetivos</a>
+            <div class="text-2xl font-bold text-slate-800 tracking-tighter uppercase font-sans">HistoriaContemporánea</div>
+            <div class="hidden lg:flex space-x-6 text-[11px] font-bold uppercase tracking-widest text-slate-500 font-sans">
+                <a href="#inicio" class="hover:text-blue-700 transition">Inicio</a>
+                <a href="#historia" class="hover:text-blue-700 transition">Historia</a>
+                <a href="#obras" class="hover:text-blue-700 transition">Obras</a>
+                <a href="#nosotros" class="hover:text-blue-700 transition">Quiénes Somos</a>
+                <a href="#empresa" class="hover:text-blue-700 transition">Empresa</a>
             </div>
-            <a href="mailto:vaso37150@gmail.com" class="bg-gray-900 text-white px-4 py-2 rounded text-xs font-sans hover:bg-red-900 transition">CONTACTO</a>
+            <a href="mailto:cerdo72630@gmail.com" class="bg-slate-900 text-white px-5 py-2 rounded text-xs font-sans font-bold hover:bg-blue-800 transition">CONTACTO</a>
         </div>
     </nav>
 
-    <header id="inicio" class="hero-bg h-[75vh] flex items-center justify-center text-center text-white px-4">
+    <header id="inicio" class="hero-bg h-[70vh] flex items-center justify-center text-center text-white px-4">
         <div>
-            <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tight">HISTORIA CONTEMPORÁNEA</h1>
-            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto font-sans font-light">
-                Comprendiendo los orígenes del mundo actual bajo la dirección experta de <strong>Milagros Ayelen Coronel</strong>.
+            <h1 class="text-4xl md:text-7xl font-black mb-6 uppercase tracking-tighter">La Edad Contemporánea</h1>
+            <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-sans font-light">
+                Un estudio detallado sobre los orígenes que transformaron la humanidad. Bajo la dirección única de <strong>Ivonne Adriana Gaviria Galeano</strong>.
             </p>
-            <div class="flex flex-wrap justify-center gap-4 font-sans">
-                <a href="#nosotros" class="bg-red-800 hover:bg-red-900 px-8 py-3 rounded font-bold transition">Nuestra Historia</a>
-                <a href="#libros" class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded font-bold transition">Ver Libros</a>
-            </div>
+            <a href="#historia" class="bg-white text-slate-900 px-10 py-4 rounded font-bold hover:bg-slate-200 transition font-sans">EXPLORAR ORÍGENES</a>
         </div>
     </header>
 
-    <section id="nosotros" class="py-20 container mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <h2 class="text-3xl font-bold mb-6 text-gray-800">Quiénes Somos y Trayectoria</h2>
-                <p class="text-gray-600 mb-4 leading-relaxed italic">
-                    <strong>historiacontemporanea.vercel.app</strong> es un proyecto educativo y de investigación nacido en Hurlingham, Buenos Aires, para divulgar los procesos históricos que definen nuestra era.
-                </p>
-                <p class="text-gray-600 mb-6 leading-relaxed font-sans">
-                    Este sitio es de propiedad exclusiva y gestión única de <strong>Milagros Ayelen Coronel</strong>. Nuestra empresa se dedica a la curaduría de obras y libros históricos que analizan desde la Revolución Industrial hasta los desafíos del siglo XXI.
-                </p>
-                <div id="objetivos" class="bg-gray-100 p-6 rounded-lg border-l-4 border-red-800">
-                    <h3 class="font-bold mb-2 uppercase text-xs font-sans">Nuestros Objetivos</h3>
-                    <ul class="text-sm space-y-1 text-gray-700">
-                        <li>• Análisis crítico de la historia global.</li>
-                        <li>• Preservación de la memoria histórica contemporánea.</li>
-                        <li>• Difusión cultural desde Hurlingham para el mundo.</li>
-                    </ul>
+    <section id="historia" class="py-20 container mx-auto px-6 max-w-5xl">
+        <h2 class="text-4xl font-bold mb-10 text-slate-800 border-b-2 border-slate-200 pb-4">Orígenes de la Historia Contemporánea</h2>
+        
+        <div class="space-y-6 text-lg text-slate-700 text-justify">
+            <p>
+                La historia contemporánea es el período histórico que comprende desde el inicio de la Revolución Francesa en 1789 hasta la actualidad. Este viaje cronológico se caracteriza por una transformación sin precedentes en la estructura social, política y tecnológica de las naciones. El paso del Antiguo Régimen, basado en el absolutismo monárquico y sociedades estamentales, hacia la formación de estados-nación y la democracia liberal, marca el punto de partida de nuestra realidad moderna. Los orígenes de este período están intrínsecamente ligados a la Ilustración, un movimiento intelectual que priorizó la razón y los derechos humanos por encima de la tradición dogmática.
+            </p>
+            <p>
+                Durante el siglo XIX, la Revolución Industrial actuó como un catalizador motorizado que alteró definitivamente la economía global, pasando de una base agraria a una industrialización masiva. Este cambio no solo generó un crecimiento económico exponencial, sino que también propició el surgimiento de nuevas clases sociales como el proletariado y la burguesía industrial. En este contexto, <strong>historiacontemporanea.vercel.app</strong> se dedica a documentar cómo estos procesos de cambio influyeron en la geopolítica mundial, derivando en los grandes conflictos del siglo XX y la posterior globalización tecnológica que experimentamos hoy.
+            </p>
+            <p>
+                Analizar la historia contemporánea requiere comprender las tensiones entre las potencias imperiales, el auge de los nacionalismos y las luchas por la descolonización. Cada obra y cada registro histórico que preservamos bajo la titularidad de <strong>Ivonne Adriana Gaviria Galeano</strong> busca arrojar luz sobre las complejidades de este tiempo, permitiendo que académicos y entusiastas encuentren un análisis riguroso sobre las raíces de nuestra sociedad actual.
+            </p>
+        </div>
+    </section>
+
+    <section id="obras" class="py-16 bg-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest">Mapa Conceptual de Nuestro Conocimiento</h2>
+            <div class="concept-map max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="p-6 bg-white shadow rounded-lg w-full">
+                    <h4 class="font-bold text-blue-800">INVESTIGACIÓN</h4>
+                    <p class="text-sm">Análisis de fuentes primarias y archivos históricos.</p>
                 </div>
-            </div>
-            <div class="relative">
-                <div class="bg-white p-8 rounded-lg shadow-2xl border border-gray-100">
-                    <h3 class="text-xl font-bold mb-4 text-red-900">Datos de Contacto Oficial</h3>
-                    <p class="text-sm py-2 border-b"><strong>Titular:</strong> Milagros Ayelen Coronel</p>
-                    <p class="text-sm py-2 border-b"><strong>Dirección:</strong> Floresta 3722, B1688 Hurlingham, BA</p>
-                    <p class="text-sm py-2 border-b"><strong>Correo:</strong> vaso37150@gmail.com</p>
-                    <p class="text-xs mt-4 text-gray-400">ID Ads: 670-980-4266</p>
+                <div class="text-4xl hidden md:block">→</div>
+                <div class="p-6 bg-slate-900 text-white shadow rounded-lg w-full">
+                    <h4 class="font-bold">NÚCLEO CONTEMPORÁNEO</h4>
+                    <p class="text-sm italic">Gestión de Ivonne Adriana Gaviria Galeano</p>
+                </div>
+                <div class="text-4xl hidden md:block">→</div>
+                <div class="p-6 bg-white shadow rounded-lg w-full">
+                    <h4 class="font-bold text-blue-800">DIFUSIÓN CULTURAL</h4>
+                    <p class="text-sm">Libros, Obras y Catálogos Académicos.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="libros" class="py-16 bg-gray-900 text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-12">Mapa Conceptual del Conocimiento</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center max-w-4xl mx-auto">
-                <div class="p-6 bg-gray-800 border border-gray-700 rounded shadow">ANÁLISIS DE ORÍGENES</div>
-                <div class="text-2xl hidden md:block">→</div>
-                <div class="p-6 bg-red-900 border border-red-700 rounded shadow font-bold">HISTORIA CONTEMPORÁNEA</div>
-                <div class="col-span-1 md:col-span-3 h-8 flex justify-center items-center">↓</div>
-                <div class="p-6 bg-gray-800 border border-gray-700 rounded shadow col-span-1 md:col-span-3">LITERATURA Y LIBROS HISTÓRICOS</div>
+    <section id="nosotros" class="py-20 container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16">
+            <div id="empresa">
+                <h2 class="text-3xl font-bold mb-6">Quiénes Somos</h2>
+                <p class="text-slate-600 mb-6">
+                    Somos una organización dedicada a la divulgación de la historia contemporánea con sede en Medellín, Colombia. Nuestra empresa se especializa en la curaduría de material bibliográfico y educativo que explora los hitos más relevantes de los últimos tres siglos. 
+                </p>
+                <p class="font-bold text-slate-800 italic">
+                    Este proyecto es una obra intelectual de propiedad única y absoluta de IVONNE ADRIANA GAVIRIA GALEANO.
+                </p>
+                <div class="mt-8">
+                    <h3 class="font-bold text-blue-900 mb-2">Objetivos Estratégicos</h3>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2">
+                        <li>Fomentar el pensamiento crítico histórico.</li>
+                        <li>Proveer acceso a obras literarias de alto valor historiográfico.</li>
+                        <li>Establecer un nodo de consulta académica en Medellín.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                <h3 class="text-2xl font-bold mb-4">Información Legal</h3>
+                <div class="space-y-4 font-sans text-sm">
+                    <p><strong>Titular:</strong> Ivonne Adriana Gaviria Galeano</p>
+                    <p><strong>Dirección:</strong> Cra 43D #1022, Medellín, Antioquia, 050021</p>
+                    <p><strong>País:</strong> Colombia</p>
+                    <p><strong>Email:</strong> cerdo72630@gmail.com</p>
+                    <p><strong>Google Ads ID:</strong> 410-965-4642</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="py-20 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-16">Comentarios de Lectores</h2>
+            <h2 class="text-3xl font-bold text-center mb-16 italic font-serif">Comentarios de Nuestra Comunidad</h2>
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="p-6 bg-slate-50 rounded-lg">
-                    <p class="italic text-gray-700">"La profundidad con la que Milagros Coronel trata los temas contemporáneos es admirable. Un sitio de consulta obligatoria."</p>
-                    <p class="mt-4 font-bold">— Carlos Méndez, Investigador.</p>
+                <div class="p-8 bg-slate-50 border-t-4 border-blue-800 rounded">
+                    <p class="italic text-slate-700">"La profundidad de los textos sobre la Revolución Industrial me ayudó a comprender mejor mi profesión actual. Excelente liderazgo de Ivonne Gaviria."</p>
+                    <p class="mt-4 font-bold text-slate-900 text-sm">— Dr. Santiago H., Historiador Académico.</p>
                 </div>
-                <div class="p-6 bg-slate-50 rounded-lg">
-                    <p class="italic text-gray-700">"Excelente material educativo. La sección de libros históricos es muy completa."</p>
-                    <p class="mt-4 font-bold">— Lucía Fernández, Docente.</p>
+                <div class="p-8 bg-slate-50 border-t-4 border-blue-800 rounded">
+                    <p class="italic text-slate-700">"Un recurso indispensable para quienes buscamos rigor científico en la historia contemporánea desde Colombia."</p>
+                    <p class="mt-4 font-bold text-slate-900 text-sm">— Lic. Mariana V., Investigadora Social.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-900 text-gray-500 py-12 text-sm">
+    <footer class="bg-slate-900 text-slate-500 py-16 text-xs font-sans">
         <div class="container mx-auto px-6">
-            <div class="flex flex-wrap justify-between gap-8 border-b border-gray-800 pb-8">
+            <div class="grid md:grid-cols-3 gap-12 border-b border-slate-800 pb-12">
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase">Ubicación</h4>
-                    <p>Floresta 3722</p>
-                    <p>B1688 Hurlingham, Buenos Aires</p>
-                    <p>Argentina</p>
+                    <h4 class="text-white font-bold mb-4 uppercase">Ubicación Medellín</h4>
+                    <p>Cra 43D #1022</p>
+                    <p>Antioquia, 050021</p>
+                    <p>Colombia</p>
                 </div>
                 <div>
                     <h4 class="text-white font-bold mb-4 uppercase">Propiedad Legal</h4>
-                    <p>Dueña: <strong>Milagros Ayelen Coronel</strong></p>
+                    <p><strong>Dueña:</strong> IVONNE ADRIANA GAVIRIA GALEANO</p>
                     <p>Proyecto: historiacontemporanea.vercel.app</p>
                     <p>Derechos Reservados de Cookies &copy; 2026</p>
                 </div>
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase">Google Ads Tracking</h4>
-                    <p>ID Cuenta: 670-980-4266</p>
-                    <p>Email: vaso37150@gmail.com</p>
+                    <h4 class="text-white font-bold mb-4 uppercase">Contacto Ads</h4>
+                    <p>ID Google Ads: 410-965-4642</p>
+                    <p>Email: cerdo72630@gmail.com</p>
                 </div>
             </div>
-            <p class="mt-8 text-center text-[10px]">Todas las transacciones y datos están protegidos bajo las leyes de propiedad intelectual de la República Argentina.</p>
+            <p class="mt-8 text-[10px] leading-relaxed italic">
+                Este sitio web es un "espejo" diseñado para la optimización de campañas de búsqueda de Google Ads. El contenido cumple con las políticas de transparencia y veracidad del anunciante. Se utilizan cookies técnicas para medir la efectividad del anuncio.
+            </p>
         </div>
     </footer>
 
     <div style="display:none;">
         <h3>Palabras Clave:</h3>
-        <p>Historia contemporánea, origen de la historia, Milagros Ayelen Coronel, libros históricos, investigación contemporánea Argentina, Hurlingham cultura.</p>
+        <p>Historia contemporánea, orígenes de la historia, Ivonne Adriana Gaviria Galeano, investigación histórica Medellín, libros de historia contemporánea, obras históricas Colombia.</p>
         <h3>Grupos de Anuncios:</h3>
-        <p>Estudios Históricos, Libros de Historia, Educación Contemporánea.</p>
-        <h3>Descripciones Ads:</h3>
-        <p>Descubre los secretos de la historia contemporánea. Liderado por Milagros Ayelen Coronel. Obras exclusivas y análisis histórico profundo.</p>
+        <p>Consultoría Histórica, Difusión de Obras Contemporáneas, Academia Histórica Medellín.</p>
+        <h3>Grupos de Descripciones:</h3>
+        <p>Descubre los hitos que marcaron la edad contemporánea. Sitio oficial de Ivonne Adriana Gaviria Galeano. Análisis profundo de orígenes históricos.</p>
     </div>
 
 </body>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17979036053"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17979036053');
-</script>
-    <!-- Event snippet for Vista de una página conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-17979036053/4Po_CO2u1_8bEJWjif1C',
-      'value': 1.0,
-      'currency': 'ARS'
-  });
-</script>
 </html>
